@@ -1,0 +1,42 @@
+.header-wrapper,
+.footer-wrapper {
+  background-color: rgb(103, 103, 255);
+  color: white;
+  max-height: fit-content;
+}
+
+.header-wrapper {
+  font-size: 25px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.footer-wrapper {
+  font-size: 15px;
+  color: white;
+  background-color: rgb(103, 103, 255);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.row {
+  padding: 15px;
+  flex: 1;
+}
+
+.main-container {
+  padding: 0;
+  display: flex;
+}
+
+.sidebar-wrapper,
+.main-wrapper {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px;
+}
+
+.sidebar-wrapper {
+  min-width: 20vw;
+}
+
+.main-wrapper {
+  width: 80vw;
+}
