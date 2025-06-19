@@ -1,7 +1,10 @@
+import Students from "../Students";
+
 const Main = () => {
   return (
     <div class="main">
-      Main Body
+      <title>Student Details</title>
+      <Students></Students>
     </div>
   );
 }
