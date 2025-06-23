@@ -1,7 +1,7 @@
 const Dashboard = () => {
   return (
     <>
-      <h3>This is Admin Dashboard Content.</h3>
+      <h3>This is the Admin Dashboard Content.</h3>
     </>
   );
 }
