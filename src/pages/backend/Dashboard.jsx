@@ -1,9 +1,7 @@
-import AdminLayout from "../../components/layout/AdminLayout";
-
 const Dashboard = () => {
   return (
     <>
-    This is Admin Dashboard Content.
+      <h3>This is Admin Dashboard Content.</h3>
     </>
   );
 }
